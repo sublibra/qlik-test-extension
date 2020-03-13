@@ -1,0 +1,12 @@
+{
+	"name" : "Qlik Extension",
+	"description" : "Extension fetching data from external resource",
+	"icon" : "text-image",
+	"type" : "visualization",
+	"version": "0.1.0",
+	"author": "Jonas Hörström (jonas.horstrom@gmail.com)",
+	"requiredOrigins": {
+    "www.google.se": ["img-src"],
+		"www.w3schools.com": ["img-src", "media-src"]
+	}
+}
